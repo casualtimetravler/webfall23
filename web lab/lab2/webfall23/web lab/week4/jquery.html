@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+
+<body>
+    <p>hide this paragraph by clicking</p>
+    <hr>
+    <label for="name"></label>
+    <input type="text"><br>
+    <label for="email"></label>
+    <input type="text">
+    <hr>
+    <p id="test">This is some <b>bold</b> text in a paragraph.</p>
+    <button id="bt1">show text</button>
+    <button id="bt2">show html</button>
+
+
+
+    <script>
+        $(document).ready(function () {
+
+            $("p").click(function () {
+                $(this).hide();
+            });
+
+            $("input").focus(function () {
+                $(this).css("background-color", "yellow")
+            });
+            $("input").blur(function () {
+                $(this).css("background-color", "green")
+            });
+            
+
+            $("#btn1").click(function () {
+                alert("Text: " + $("#test").text());
+            });
+            $("#btn2").click(function () {
+                alert("HTML: " + $("#test").html());
+
+
+
+            
+            });
+        });
+
+    </script>
+</body>
+
+</html>
