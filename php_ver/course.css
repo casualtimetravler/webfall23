@@ -1,0 +1,107 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3a3a8a;
+    color: #aaa4a4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #18367b;
+    color: #fff;
+    padding: 60px 0;
+  }
+  
+  .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-right: 20px;
+  }
+  
+  @media (max-width: 902px) {
+    .navbar-brand img {
+        margin-right: 5px;
+    }
+  }
+  
+  .course {
+    max-width: 900px;
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  
+  .course h2 {
+    color: #18367b;
+  }
+  
+  .course .card-text {
+    line-height: 1.6;
+  }
+  
+  .text-center ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-inline-item .btn {
+    color: #ffffff;
+    margin: 8px;
+    text-decoration: none;
+  }
+  
+  /*small screens*/
+  @media (max-width: 992px) {
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        left: auto;
+        float: left;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+  
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+  
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+  
+    .show {
+        display: block;
+    }
+  
+    .dropbtn {
+        background-color: #131f29;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+  
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: #355f7b;
+    }
+  }

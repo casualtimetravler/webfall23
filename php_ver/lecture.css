@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #18367b;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+    margin: 0 15px;
+}
+
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-right: 20px;
+}
+
+@media (max-width: 902px) {
+    .navbar-brand img {
+        margin-right: 5px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        margin: 5px;
+    }
+}
+
+.week {
+    margin-bottom: 20px;
+}
+
+
+.course .card-body {
+    padding-top: 1.5rem;
+}
+
+
+.week-title {
+    background-color: #3d3d3d;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.lectures {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lectures .list-group-item {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.lectures .list-group-item:hover {
+    background-color: #f0f8ff;
+}
+
+.lectures a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+}
+
+.lectures a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #18367b;
+    color: #fff;
+    padding: 20px;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
